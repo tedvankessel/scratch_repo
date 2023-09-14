@@ -3,6 +3,16 @@
 ## query_watson_discovery_and_llm_v2.py
 Code to access the Watson Discovery H4 Instance for context, run multiple models plot and 
 log model performance on 20 question set 
+
+### Inputs:
+    qa.csv  (file must reside in same folder as this notebook)
+    .env file with credentials
+    
+### Outputs:
+    printed list of question, correct response and predicted response for multiple llm models
+    plots of model performance and logged statistics based on Bleu score
+    plots are saved to the local directory as image files
+    
 ### Datasets
     qa.csv  20 question/answer pairs
     
