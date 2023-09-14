@@ -1,7 +1,3 @@
-# scratch_repo
-scratch_repo for disposable material
-
-
 ## Code
 
 #### query_watson_discovery_and_llm_v2.py
